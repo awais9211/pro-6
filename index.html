@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-family:Arial, sans-serif;
+            background:linear-gradient(to right,#b92bdb,#8e2de2);
+        }
+
+        .container{
+            width:320px;
+            background:white;
+            padding:30px;
+            border-radius:8px;
+            text-align:center;
+        }
+
+        h2{
+            margin-bottom:20px;
+        }
+
+        .social-btn{
+            display:flex;
+            justify-content:space-between;
+            margin-bottom:15px;
+        }
+
+        .social-btn button{
+            width:48%;
+            padding:8px;
+            border:none;
+            color:white;
+            cursor:pointer;
+            border-radius:4px;
+        }
+
+        .facebook{
+            background:#3b5998;
+        }
+
+        .twitter{
+            background:#1da1f2;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            margin:8px 0;
+            border:1px solid #ccc;
+            border-radius:4px;
+        }
+
+        .options{
+            display:flex;
+            justify-content:space-between;
+            font-size:14px;
+            margin-bottom:15px;
+        }
+
+        .login-btn{
+            width:100%;
+            padding:10px;
+            border:none;
+            background:#b92bdb;
+            color:white;
+            border-radius:4px;
+            cursor:pointer;
+        }
+
+        p{
+            margin-top:15px;
+            font-size:14px;
+        }
+
+        a{
+            color:#b92bdb;
+            text-decoration:none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Login Form</h2>
+
+    <div class="social-btn">
+        <button class="facebook">Facebook</button>
+        <button class="twitter">Twitter</button>
+    </div>
+
+    <input type="text" placeholder="Email or Phone">
+    <input type="password" placeholder="Password">
+
+    <div class="options">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot password?</a>
+    </div>
+
+    <button class="login-btn">Login</button>
+
+    <p>Not a member? <a href="#">Signup now</a></p>
+
+</div>
+
+</body>
+</html>
